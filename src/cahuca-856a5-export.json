@@ -1,0 +1,424 @@
+{
+  "combustibles" : {
+    "enero" : {
+      "consumo" : {
+        "diesel" : 0,
+        "gas" : 0,
+        "gasolina" : 0,
+        "glp" : 0
+      },
+      "emisiones" : {
+        "diesel" : {
+          "co2": 0,
+          "ch4" : 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas" : {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina" : {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp" : {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total" : 0
+      }
+    },
+    "febrero" : {
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    },
+    "marzo" : {
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    },
+    "abril": {
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    },
+    "mayo":{
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    },
+    "junio":{
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    },
+    "julio": {
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    },
+    "agosto": {
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    },
+    "septiembre": {
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    },
+    "octubre": {
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    },
+    "noviembre":{
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    },
+    "diciembre": {
+      "consumo": {
+        "diesel": 0,
+        "gas": 0,
+        "gasolina": 0,
+        "glp": 0
+      },
+      "emisiones": {
+        "diesel": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gas": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "gasolina": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "glp": {
+          "co2": 0,
+          "ch4": 0,
+          "n2o": 0,
+          "total": 0
+        },
+        "total": 0
+      }
+    }
+  }
+}
