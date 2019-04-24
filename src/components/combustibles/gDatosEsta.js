@@ -38,19 +38,13 @@ export default class GDatosEsta extends React.Component {
                 }
             }
 
-            console.log(valores)
-
             for (let i = 0; i < sectores.length; i++) {
                 suma[i] = valores[sectores[i]].reduce((a, b) => a + b)
             }
 
-            console.log(suma);
-
             for (let i = 0; i < sectores.length; i++) {
                 promedios[i] = suma[i]/valores[sectores[i]].length
             }
-
-            console.log(promedios)
 
             for (let i = 0; i < sectores.length; i++) {
                 desviaciones[sectores[i]] = valores[sectores[i]].map(function (item) {
@@ -59,11 +53,8 @@ export default class GDatosEsta extends React.Component {
                 desviaciones[sectores[i]] = desviaciones[sectores[i]].reduce((a, b) => a + b)
                 desviaciones[i] = Math.sqrt(desviaciones[sectores[i]]) / Math.sqrt(valores[sectores[i]].length)
             }
-
-            console.log(desviaciones)
-
             
-            this.setState({promedios: promedios, desviaciones: desviaciones}, ()=>console.log(this.state))
+            this.setState({promedios: promedios, desviaciones: desviaciones})
 
         })
     }

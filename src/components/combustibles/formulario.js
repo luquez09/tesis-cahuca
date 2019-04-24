@@ -40,25 +40,25 @@ export default class Formulario extends React.Component {
                     <div className="input-group-prepend">
                         <span class="input-group-text">GLP</span>
                     </div>
-                    <input type="number" className="form-control" ref={input => { this.glp = input }} />
+                    <input type="number" className="form-control" placeholder="En galones" ref={input => { this.glp = input }} />
                 </div>
                 <div className="input-group mb-3">
                     <div className="input-group-prepend">
                         <span class="input-group-text">DIESEL</span>
                     </div>
-                    <input type="number" className="form-control" ref={input => { this.diesel = input }} />
+                    <input type="number" className="form-control" placeholder="En galones" ref={input => { this.diesel = input }} />
                 </div>
                 <div className="input-group mb-3">
                     <div className="input-group-prepend">
                         <span class="input-group-text">GASOLINA</span>
                     </div>
-                    <input type="number" className="form-control" ref={input => { this.gasolina = input }} />
+                    <input type="number" className="form-control" placeholder="En galones" ref={input => { this.gasolina = input }} />
                 </div>
                 <div className="input-group mb-3">
                     <div className="input-group-prepend">
                         <span class="input-group-text">GAS NATURAL</span>
                     </div>
-                    <input type="number" className="form-control" ref={input => { this.gas = input }} />
+                    <input type="number" className="form-control" placeholder="En galones" ref={input => { this.gas = input }} />
                 </div>
                 <div className="row justify-content-center" >
                     <div className="form-group row justify-content-center">

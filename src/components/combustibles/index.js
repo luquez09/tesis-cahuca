@@ -111,7 +111,7 @@ export default class Inicio extends Component {
                                 <div className="card shadow mb-4">
                                     {/* Card Header - Dropdown */}
                                     <div className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                        <h6 className="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                                        <h6 className="m-0 font-weight-bold text-primary">Formulario de datos</h6>
                                     </div>
                                     {/* Card Body */}
                                     <div className="card-body">
@@ -187,13 +187,18 @@ export default class Inicio extends Component {
                             </div>
                         </div>
                         <div className="d-sm-flex align-items-center justify-content-between mb-4">
-                            <h1 className="h3 mb-0 text-gray-800">RESUMEN MENSUAL</h1>
+                            <h1 className="h3 mb-0 text-gray-800">RESUMEN MENSUAL</h1> 
                         </div>
-                        <div className="row">
-                            {Object.keys(this.state.valores).map(mes =><TablaMensual mes={mes} valores={this.state.valores}/>)}
+                        <div className="row">   
+                            {Object.keys(this.state.valores).map((mes) =>{
+                                let valores = this.state.valores
+                                if(valores[mes]['emisiones']['total'] > 0) {
+                                return <TablaMensual mes={mes} valores={this.state.valores}/>
+                                }
+                            })}
                         </div>
-                    </div>
-                    {/* /.container-fluid */}
+                    </div> 
+                    {/* /.container-fluid */} 
                 </div>
                 {/* End of Main Content */}
                 {/* Footer */}

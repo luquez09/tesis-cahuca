@@ -4,7 +4,7 @@ import firebase from 'firebase'
 
 const meses = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']
 const months = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
-
+const sectores = ['glp', 'diesel', 'gasolina', 'gas']
 
 export default class GEmiMensuales extends React.Component {
     constructor(props) {
@@ -21,21 +21,25 @@ export default class GEmiMensuales extends React.Component {
         const nameRef = firebase.database().ref().child('combustibles')
         nameRef.on('value', snapshot => {
             let val = snapshot.val()
-            let glp = []
-            let diesel = []
-            let gasolina = []
-            let gas = []
+            let valores = {
+                'glp': [],
+                'diesel': [],
+                'gasolina': [],
+                'gas': [],
+            }
+           
             for (let i = 0; i < months.length; i++) {
-                glp[i] = val[months[i]]['emisiones']['glp']['total']
-                diesel[i] = val[months[i]]['emisiones']['diesel']['total']
-                gasolina[i] = val[months[i]]['emisiones']['gasolina']['total']
-                gas[i] = val[months[i]]['emisiones']['gas']['total']
+                for (let j = 0; j < sectores.length; j++) {
+                    if (val[months[i]]['emisiones'][sectores[j]]['total']){
+                    valores[sectores[j]][i] = val[months[i]]['emisiones'][sectores[j]]['total']
+                    }
+                }
             }
             this.setState({
-                glp: glp,
-                diesel: diesel,
-                gasolina: gasolina,
-                gas: gas
+                glp: valores.glp,
+                diesel: valores.diesel,
+                gasolina: valores.gasolina,
+                gas: valores.gas
             })
         })
     }
